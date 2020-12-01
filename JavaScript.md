@@ -43,4 +43,12 @@ JavaScript can "display" data in different ways:
 * we can declare many variables in one statement by separating comas or else semi;.
 * for concatinating stuff we can use "je"+"fe"=jefe;a and starting with dollars also are valid variable declarations and also we can start with _hello.
 
+**JavaScript assignment operators**
+* examples = x=y
+* x += y used as a x=x+y same for x=x-y/x=x*y/%=/* *=
+
+* typeof Returns the type of a variable
+* instanceof Returns true if an object is an instance of an object type
+* Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).and important bracket **()** has a first precedance
+
 
