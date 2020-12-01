@@ -15,7 +15,8 @@ document.getElementById("demo").innerHTML = "My First JavaScript"; //we can use 
 </script>
 
 </body>
-</html> ``` 
+</html> 
+``` 
 
 **Display properties in javascript**
 JavaScript can "display" data in different ways:
