@@ -60,4 +60,27 @@ x = "John";      // Now x is a String
 * Booleans can only have two values: true or false.
 * typeof "" return datatype of the respective
 * typeof {name:'John', age:34}  returns //object
+```js 
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>JavaScript Functions</h2>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction(4, 3);
+</script>
+
+</body>
+</html>
+```
+* The code inside the function will execute when "something" invokes (calls) the function:
+* When an event occurs (when a user clicks a button)
+* When it is invoked (called) from JavaScript code
+* Automatically (self invoked)
+* farebnhit to celcious   return (5/9) * (f-32);
