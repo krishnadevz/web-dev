@@ -37,7 +37,7 @@ JavaScript can "display" data in different ways:
 * assignment is operator is = and also JavaScript is Case Sensitive means Var VAR is not considered as a var.
 * hyphens are not allowed in javascript those are reserved for substractions Underscore,lower camelCase and upper CamelCase type variables are allowed in javascript.
 * comments in javascript are like this // hello i am revising javascript 
-* const keyword to define a variable that cannot be reassigned and let keyword to define a variable with restricted scope.and var is global and can be reasigned by values.
+* const keyword to define a variable that cannot be reassigned and let keyword to define a variable with restricted scope.and var(whole function scope) is global scoped and can be reasigned by values // const and let only exist in the blocks they are defined in..
 * if we put numbers in string like `var yup="15"` so that will be treated as string because of quotes.
 * After the declaration, the variable has no value (technically it has the value of undefined).
 * we can declare many variables in one statement by separating comas or else semi;.
@@ -50,5 +50,14 @@ JavaScript can "display" data in different ways:
 * typeof Returns the type of a variable
 * instanceof Returns true if an object is an instance of an object type
 * Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).and important bracket **()** has a first precedance
-
+*  Example var x = "Volvo" + 16 + 4; if the operand is string then other will be treated as a string ans=Volvo164
+* JavaScript has dynamic types. This means that the same variable can be used to hold different data types
+```js
+ var x;           // Now x is undefined
+x = 5;           // Now x is a Number
+x = "John";      // Now x is a String 
+```
+* Booleans can only have two values: true or false.
+* typeof "" return datatype of the respective
+* typeof {name:'John', age:34}  returns //object
 
