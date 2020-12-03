@@ -84,3 +84,71 @@ document.getElementById("demo").innerHTML = myFunction(4, 3);
 * When it is invoked (called) from JavaScript code
 * Automatically (self invoked)
 * farebnhit to celcious   return (5/9) * (f-32);
+* Variables declared within a JavaScript function with var, become LOCAL to the function outside the function var will be undefined .
+
+**Obejcts**
+* A car(is a object) has properties like weight and color, and methods like start and stop:
+```js
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+var car = {type:"Fiat", model:"500", color:"white"}; //this how obejcts created in javascript
+
+// Display some data from the object:
+document.getElementById("demo").innerHTML = "The car type is " + car.type;
+</script>
+
+</body>
+</html>
+```
+* how we can write javascript objects in different types🔽
+ ```js
+ 
+ var person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+```
+* we can access values in objects by using **.** objectName.propertyName/ person["lastName"]; .
+* In a function definition, this refers to the "owner" of the function in the aboive person is the owner of the function.
+* In other words, this.firstName means the firstName property of this object.
+* Accessing Object Methods
+```js
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+
+<p>An object method is a function definition, stored as a property value.</p>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id     : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+
+</body>
+</html>
+```
+* new keyword is used to create object.
+**JavaScript Events**
