@@ -152,3 +152,38 @@ document.getElementById("demo").innerHTML = person.fullName();
 ```
 * new keyword is used to create object.
 **JavaScript Events**
+* HTML events are "things" that happen to HTML elements.
+* An HTML input field was changed
+* An HTML button was clicked
+```js
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+```
+**JavaScript Event Types**
+* onchange =An HTML element has been changed
+* onclick = The user clicks an HTML element
+* onmouseover = The user moves the mouse over an HTML element
+* onmouseout/onkeydown/onload
+**String Methods in JavaScript**
+* var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+* var sln = txt.length;
+* But strings can also be defined as objects with the keyword new:
+* var firstName = new String("John");
+```js
+var x = "John";             
+var y = new String("John");
+```
+* When using the == operator, equal strings are equal:
+* When using the === operator, equal strings are not equal, because the === operator expects equality in both type and value.
+* and objects  cannot be compared if we compared then output is definitely `false`
+* example escape character `"we are the \"Vikings\""`.
+
+
