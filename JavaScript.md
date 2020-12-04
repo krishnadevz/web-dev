@@ -186,4 +186,39 @@ var y = new String("John");
 * and objects  cannot be compared if we compared then output is definitely `false`
 * example escape character `"we are the \"Vikings\""`.
 
+**Strings**
+* var ex="krishna";
+* console.log(ex.length);
+* var wer="krishna kakade"
+* var opps=wer.indexOf("kakade")// also we can lastIndexOf()
+* console.log(opps);
+* var pos = str.indexOf("locate", 15); //The indexOf() method accepts a second parameter as the starting position for the search
+* var pos = str.lastIndexOf("locate", 15); //astIndexOf() method searches backwards, so position 15 means start the search at position 15, and search to the beginning 7 ans
+* var pos=str.search("locate"); //returns the position of the first occurrence of a specified text in a string:
+
+**String Methods**
+Code example from w3schools 
+```js
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7,13);
+document.getElementById("demo").innerHTML = res; //returns Banana
+</script>
+
+</body>
+</html>
+```
+* var res = str.slice(7); //The slice() method extract a part of a string and returns the extracted parts in a new string
+
 
