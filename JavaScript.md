@@ -219,6 +219,29 @@ document.getElementById("demo").innerHTML = res; //returns Banana
 </body>
 </html>
 ```
-* var res = str.slice(7); //The slice() method extract a part of a string and returns the extracted parts in a new string
+* var res = str.slice(7); //The slice() method extract a part of a string and returns the extracted parts in a new string.
+* var res = str.substr(7);//The substr() method extract a part of a string and returns the extracted parts in a new string this returns Banana,kiwi if i put(6)there then that will return `,Banana, kiwi`. and If the first parameter is negative, the position counts from the end of the string.
+
+**String replace**
+* str = "Please visit Microsoft and Microsoft!";
+* var n = str.replace("Microsoft", "W3Schools");
+* var n = str.replace(/Microsoft/g, "W3Schools"); //globally match with the help of //g regular expressions 
+* var text2 = text1.toUpperCase();  // text2 is text1 converted to upper or toLowerCase()  
+* var text3 = text1.concat(" ",text2);  //used for combining the two strings 
+* var str = "       Hello World!        ";//The trim() method removes whitespace from both sides of a string:
+* alert(str.trim()); 
+
+**More string methods**
+* let str = "5";
+* str = str.padStart(4,0); // result is 0005 
+* let str = "5";
+* str = str.padEnd(4,0); // result is 5000 
+* var str = "HELLO WORLD";
+* str.charAt(0); //returns H
+* var str = "HELLO WORLD"; //returns 72 
+* str.charCodeAt(0); //if we use str[0] then also return H
+
+
+
 
 
