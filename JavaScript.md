@@ -240,6 +240,28 @@ document.getElementById("demo").innerHTML = res; //returns Banana
 * str.charAt(0); //returns H
 * var str = "HELLO WORLD"; //returns 72 
 * str.charCodeAt(0); //if we use str[0] then also return H
+```js 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var str = "Hello";
+var arr = str.split("");
+var text = "";
+var i;
+for (i = 0; i < arr.length; i++) {
+  text += arr[i] + "<br>"
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+```
+* var str="hey" // var strs=str.split(""); // console.log(strs)
 
 
 
