@@ -262,6 +262,18 @@ document.getElementById("demo").innerHTML = text;
 </html>
 ```
 * var str="hey" // var strs=str.split(""); // console.log(strs)
+* do not initialize objects with `new` it slows down the execution 
+* do not compare the objects.
+* toString() method converts number to the string 
+* var x = 9.656; x.toExponential(2);     // returns 9.66e+0
+* Number(new Date("2017-09-30"));    // returns 1506729600000 Number() can also convert a date to a number:
+* parseInt("10.33");      // returns 10 returns whole number // returns 10
+*  var x = Number.MAX_VALUE;  return largest number/ MIN_VALUE/
+**JavaScript arrays**
+*  var car1 = "Saab"; var cars = ["Saab", "Volvo", "BMW"]; cars[0] = "Opel"; we can assign values to the array using indexes 
+* var cars =["figo","vista"] var y = cars.sort();   sorts the array [fruits.length - 1]; for pushing/adding new elelment to the array we can use cars.push("cybertruck")
+* In JavaScript, arrays use numbered indexes. In JavaScript, objects use named indexes. 
+* for recongnising the array we can use  typeof cars;
 
 
 
