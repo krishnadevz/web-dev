@@ -271,11 +271,27 @@ document.getElementById("demo").innerHTML = text;
 *  var x = Number.MAX_VALUE;  return largest number/ MIN_VALUE/
 **JavaScript arrays**
 *  var car1 = "Saab"; var cars = ["Saab", "Volvo", "BMW"]; cars[0] = "Opel"; we can assign values to the array using indexes 
-* var cars =["figo","vista"] var y = cars.sort();   sorts the array [fruits.length - 1]; for pushing/adding new elelment to the array we can use cars.push("cybertruck")
+* var cars =["figo","vista"] var y = cars.sort();   sorts the array [fruits.length - 1]; for pushing/adding new elelment to the array we can use cars.push("cybertruck") and also we can do .pop() for removing element from the given array.
 * In JavaScript, arrays use numbered indexes. In JavaScript, objects use named indexes. 
 * for recongnising the array we can use  typeof cars;
+* The shift() method removes the first element of an array (and "shifts" all other elements to the left): and unshift is used to add new element to the array and .splice() is used to remove element from the array without leaving holes some unwanted memory etc.
 
+```js 
+<script>
+var points = [40, 100, 1, 5, 25, 10];
+document.getElementById("demo").innerHTML = points;  
 
-
+function myFunction() {
+  points.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML = points;
+}
+</script>
+```
+* above code example is used for the returning number in asending order and for returning element in desending order we can do b-a.//If the result is negative a is sorted before b.If the result is positive b is sorted before a.
+* The map() method creates a new array by performing a function on each array element.reduce() method reduces the array into single value.
+* cars.indexOf("Volvo") return index of that array element
+*  var d = new Date(); returns the date // for getting full year we can use .getFullYear()
+* there are to many methods for for .Math() function like Math.ceil() // return round up numbernearest number // Math.round()
+* variablename = (condition) ? value1:value2  ternary operator
 
 
