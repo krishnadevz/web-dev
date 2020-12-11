@@ -294,4 +294,139 @@ function myFunction() {
 * there are to many methods for for .Math() function like Math.ceil() // return round up numbernearest number // Math.round()
 * variablename = (condition) ? value1:value2  ternary operator
 
+**Conditionals in javascript**
+* if else simple logic 
+* else when we are going to return the result if code doesn't work according to us 
+* else if for multiple conditions checking 
+* in switch case we can return result according to the different cases
+```js
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+} 
+```
+* loops 
+* for (statement 1; statement 2; statement 3) { // code block to be executed }
+* for - loops through a block of code a number of times
+* for/in - loops through the properties of an object
+* for/of - loops through the values of an iterable object
+* while - loops through a block of code while a specified condition is true
+* do/while - also loops through a block of code while a specified condition is true
+**Syntax**
+* while (condition) { // code block to be executed }
+* do { // code block to be executed } while (condition);
+* The break statement "jumps out" of a loop.
+* The continue statement "jumps over" one iteration in the loop.
+* bit wise operators are `and ,or ,not~,xor/^,shifts`
 
+**JavaScript Regular Expressions**
+* A regular expression is a sequence of characters that forms a search pattern.
+* Regular expressions can be used to perform all types of text search and text replace operations.
+* var str = "Visit W3Schools";var n = str.search(/w3schools/i); //i denotes case sensitive and g for global matching
+* test is the javascript regular expression object 
+**Try and catch**
+```js 
+try {
+  Block of code to try
+}
+catch(err) {
+  Block of code to handle errors
+}
+finally {
+  Block of code to be executed regardless of the try / catch result
+} 
+
+var num = 1;
+try {
+  num.toUpperCase();   // You cannot convert a number to upper case
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.name;
+}
+
+```
+* variables declared inside the function those are local variables to the function and those are declared outside the function are global variables.
+
+**JavaScript hoisting**
+* Variables defined with let and const are hoisted to the top of the block, but not initialized.
+* In JavaScript, a variable can be declared after it has been used.In other words; a variable can be used before it has been declared.Variables defined with let and const are hoisted to the top of the block, but not initialized.Meaning: The block of code is aware of the variable, but it cannot be used until it has been declared.Using a let variable before it is declared will result in a ReferenceError.
+* Declare Your Variables At the Top !
+* Hoisting is (to many developers) an unknown or overlooked behavior of JavaScript.
+* If a developer doesn't understand hoisting, programs may contain bugs (errors).
+* To avoid bugs, always declare all variables at the beginning of every scope.
+* Since this is how JavaScript interprets the code, it is always a good rule. 
+* With `strict mode`, you can not, for example, use undeclared variables.
+* because of strict mode we can write secure javascript if Declared at the beginning of a script, it has global scope (all code in the script will execute in strict mode):and we didn't declared variables then that will cause erros.
+**This keyword**
+* The JavaScript this keyword refers to the object it belongs to. In a function, this refers to the global object.
+* JavaScript strict mode does not allow default binding. So, when used in a function, in strict mode, this is undefined.
+* **const** array can be changed.
+
+**Arrow functions**
+```js 
+simple functions
+hello = function() {
+  return "Hello World!";
+}
+```
+```js 
+arrow function
+hello = () => {
+  return "Hello World!";
+  
+  simple one with return default is return  hello = () => "Hello World!"; 
+  
+  ```
+  * **JavaScript class examples**
+  ```js
+  <!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Class</h2>
+
+<p>How to use a JavaScript Class.</p>
+
+<p id="demo"></p>
+
+<script>
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+
+myCar = new Car("Ford", 2014);
+document.getElementById("demo").innerHTML =
+myCar.name + " " + myCar.year;
+</script>
+
+</body>
+</html>
+```
+* If your browser supports debugging, you can use console.log() to display JavaScript values in the debugger window:and The debugger keyword stops the execution of JavaScript, and calls (if available) the debugging function.and debugger tools are devtools of any browser we can those things in console
+  
+ * **JavaScript best practices **
+ * Global variables and functions can be overwritten by other scripts. Use local variables instead, and learn how to use closures.end switches with defaults.
+ * **JavaScript Performance**
+ * Reduce Activity in Loops:-
+ ```js
+ var i;
+for (i = 0; i < arr.length; i++) { //bad code
+```
+```js
+var i;
+var l = arr.length;
+for (i = 0; i < l; i++) { //better code
+```
+* 
+
+ 
+  
