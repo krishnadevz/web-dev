@@ -426,7 +426,7 @@ var i;
 var l = arr.length;
 for (i = 0; i < l; i++) { //better code
 ```
-* 
+* **closures** It’s kind of like when a car is manufactured (defined) it comes with a few functions like start, accelerate, decelerate. These car functions get executed by the driver every time they operate the car. Closures for these functions come defined with the car itself and they close over variables they need to operate.
 
  
   
