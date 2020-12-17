@@ -18,4 +18,42 @@ server.listen(4242, () => {
   console.log('Server is running...');
 });
 ```
-* 
+* setTimeout is used to delay the messages or service of any application.
+```js 
+setTimeout(
+  () => {
+    console.log('Hello after 4 seconds');
+  },
+  4 * 1000
+);
+
+
+
+const rocks = who => {
+  console.log(who + ' rocks');
+};
+
+setTimeout(rocks, 2 * 1000, 'Pluralsight');
+
+```
+* challenge 
+```js
+const theOneFunc = delay => {
+  console.log('Hello after ' + delay + ' seconds');
+};
+
+setTimeout(theOneFunc, 4 * 1000, 4);
+
+setTimeout(theOneFunc, 8 * 1000, 8);
+```
+* setInterval is used repeat same thing again and again 
+```js
+setInterval(
+  () => console.log('Hello every 3 seconds'),
+  3000
+);
+
+```
+
+
+
