@@ -430,6 +430,56 @@ for (i = 0; i < l; i++) { //better code
 * JavaScript has the 5 primitive datatypes
 * string ,number,boolean, null, undefined.
 * JavaScript Objects are Mutable Objects are mutable: They are addressed by reference, not by value. Any changes to x will also change person, because x and person are the same object.  
+* The delete keyword deletes a property from an object.
+```js
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+delete person.age;   // or delete person["age"]; 
+```
+* Accessing Object Methods in JavaScript code 
+```js
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id     : 5566,
+};
+person.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+
+document.getElementById("demo").innerHTML =
+"My father is " + person.name(); 
+</script>
+
+</body>
+</html>
+```
+* Object.values() converts an object to an array.
+
+**JavaScript Object Accessors**
+*  // Display data from the object using a getter:
+```js
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  language : "",
+  set lang(lang) {
+    this.language = lang;
+  }
+};
+
+// Set an object property using a setter:
+person.lang = "en";
+
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.language;
+```
 
 
     
