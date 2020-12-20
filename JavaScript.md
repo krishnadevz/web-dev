@@ -480,8 +480,51 @@ person.lang = "en";
 // Display data from the object:
 document.getElementById("demo").innerHTML = person.language;
 ```
+* JavaScript Object Constructors
+```js
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>JavaScript Object Constructors</h2>
 
+<p id="demo"></p>
+
+<script>
+// Constructor function for Person objects
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// Create a Person object
+var myFather = new Person("John", "Doe", 50, "blue");
+
+// Display age
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.age + "."; 
+</script>
+
+</body>
+</html>
+```
+* another way to use constructor
+```js
+class Polygon {
+  constructor() {
+    this.name = 'Polygon';
+  }
+}
+
+const poly1 = new Polygon();
+
+console.log(poly1.name);
+// expected output: "Polygon"
+
+```
+* The JavaScript prototype property allows you to add new properties to object constructors and The JavaScript prototype property also allows you to add new methods to objects constructors.Prototypes are the mechanism by which JavaScript objects inherit features from one another. In this article, we explain how prototype chains work and look at how the prototype property can be used to add methods to existing constructors.
     
 
 
