@@ -525,7 +525,8 @@ console.log(poly1.name);
 
 ```
 * The JavaScript prototype property allows you to add new properties to object constructors and The JavaScript prototype property also allows you to add new methods to objects constructors.Prototypes are the mechanism by which JavaScript objects inherit features from one another. In this article, we explain how prototype chains work and look at how the prototype property can be used to add methods to existing constructors.
-    
+
+* call(), an object can use a method belonging to another object.
 
 
 
