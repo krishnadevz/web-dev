@@ -527,8 +527,42 @@ console.log(poly1.name);
 * The JavaScript prototype property allows you to add new properties to object constructors and The JavaScript prototype property also allows you to add new methods to objects constructors.Prototypes are the mechanism by which JavaScript objects inherit features from one another. In this article, we explain how prototype chains work and look at how the prototype property can be used to add methods to existing constructors.
 
 * call(), an object can use a method belonging to another object.
+* **javascript closures** A closure is a function having access to the parent scope, even after the parent function has closed.
 
 
 
  
-  
+
+
+* **JavaScript Classes**
+```js class ClassName {
+  constructor() { ... }
+}
+```
+
+**class inheritance**
+```js
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return 'I have a ' + this.carname;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + ', it is a ' + this.model;
+  }
+}
+
+let myCar = new Model("Ford", "Mustang");
+document.getElementById("demo").innerHTML = myCar.show();
+```
+* The super() method refers to the parent class.By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.Inheritance is useful for code reusability: reuse properties and methods of an existing class when you create a new class.
+
