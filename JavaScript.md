@@ -566,3 +566,11 @@ document.getElementById("demo").innerHTML = myCar.show();
 ```
 * The super() method refers to the parent class.By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.Inheritance is useful for code reusability: reuse properties and methods of an existing class when you create a new class.
 
+**JavaScript Callbacks**
+* "I will call back later!" A callback is a function passed as an argument to another function This technique allows a function to call another function A callback function can run after another function has finished.
+
+
+
+
+
+
