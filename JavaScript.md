@@ -568,6 +568,9 @@ document.getElementById("demo").innerHTML = myCar.show();
 
 **JavaScript Callbacks**
 * "I will call back later!" A callback is a function passed as an argument to another function This technique allows a function to call another function A callback function can run after another function has finished.
+* A callback is a function passed as an argument to another function.
+* Functions running in parallel with other functions are called asynchronous. A good example is JavaScript setTimeout()
+* async makes a function return a Promise and await makes a function wait for a Promise
 
 
 
