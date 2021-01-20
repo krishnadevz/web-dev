@@ -571,9 +571,30 @@ document.getElementById("demo").innerHTML = myCar.show();
 * A callback is a function passed as an argument to another function.
 * Functions running in parallel with other functions are called asynchronous. A good example is JavaScript setTimeout()
 * async makes a function return a Promise and await makes a function wait for a Promise
+* .includes() method checks that number or something is in the array & according to that it returns true.
+* global scoped variables are declared on the top function in javascript
+* anonymous function is function without name
 
 
+```js
+// This is how we write normal or declaration function
+// Let us change this declaration function to an arrow function
+function square(n) {
+  return n * n
+}
 
+console.log(square(2)) // 4
 
+const square = (n) => {
+  return n * n
+}
+
+console.log(square(2)) // -> 4
+
+// if we have only one line in the code block, it can be written as follows, explicit return
+const square = (n) => n * n // -> 4
+```
+* ... spread operator can be use to copy the elements of the array to another array 
+and also we can copy objects also. 
 
 
