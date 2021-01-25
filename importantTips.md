@@ -21,3 +21,4 @@
     }
 }
 ```
+* 2rem :- property in css denotes that element size would 2 times of the root element.
