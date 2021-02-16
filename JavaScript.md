@@ -596,5 +596,19 @@ const square = (n) => n * n // -> 4
 ```
 * ... spread operator can be use to copy the elements of the array to another array 
 and also we can copy objects also. 
-
+* **JavaScript coding questions**
+``  var A = new Date('October 15, 1996 05:35:32'); 
+  
+    // Day of the week from above Date Object is 
+    // being extracted using getDay() 
+    var Day = A.getDay(); 
+console.log(Day)
+``
+* <button onclick="print_current_page()">Print this page</button>
+``
+function print_current_page()
+{
+window.print();
+}
+``
 
