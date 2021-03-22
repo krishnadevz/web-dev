@@ -54,8 +54,16 @@ Program.assertEqual(factorial(3), 6);
 
 ```
 * memoization saves time of the program a form caching 
+```js
+def show_excitement():
+    # Your code goes here!
+    string="I am super excited for this course! " *5 
+    return string
 
+print show_excitement()
+```
 
+	
 
 
 
