@@ -63,10 +63,5 @@ def show_excitement():
 print show_excitement()
 ```
 
-	
 
-
-
-
-
-```
+* BigO notation [Resource](https://www.bigocheatsheet.com/)
