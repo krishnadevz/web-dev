@@ -65,3 +65,4 @@ print show_excitement()
 
 
 * BigO notation [Resource](https://www.bigocheatsheet.com/)
+*  LinkedList is something that has a head Element, which is the first element in the list. If we establish a new LinkedList without a head, it will default to None. 
