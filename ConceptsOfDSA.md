@@ -66,3 +66,7 @@ print show_excitement()
 
 * BigO notation [Resource](https://www.bigocheatsheet.com/)
 *  LinkedList is something that has a head Element, which is the first element in the list. If we establish a new LinkedList without a head, it will default to None. 
+*  complexity of binary search is O(log2n)=Olog(n)
+*  In bubble sort naive approach compare with everyone compare and then switch the elements
+*  * merge sort divide array into the small ones and then merge it it's called divide and conquer.merge sort complexity = o(nlogn)
+*  Quick sort is the one of the efficient algorithm pivot compare greater than and then swap O(nlogn)
