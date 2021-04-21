@@ -70,3 +70,5 @@ print show_excitement()
 *  In bubble sort naive approach compare with everyone compare and then switch the elements
 *  * merge sort divide array into the small ones and then merge it it's called divide and conquer.merge sort complexity = o(nlogn)
 *  Quick sort is the one of the efficient algorithm pivot compare greater than and then swap O(nlogn)
+*  ![Screenshot from 2021-04-21 13-20-15](https://user-images.githubusercontent.com/42638797/115517038-5e939a80-a2a4-11eb-84d3-d5bdee1cb6ad.png)
+
