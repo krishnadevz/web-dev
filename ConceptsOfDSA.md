@@ -72,3 +72,7 @@ print show_excitement()
 *  Quick sort is the one of the efficient algorithm pivot compare greater than and then swap O(nlogn)
 *  ![Screenshot from 2021-04-21 13-20-15](https://user-images.githubusercontent.com/42638797/115517038-5e939a80-a2a4-11eb-84d3-d5bdee1cb6ad.png)
 
+**Dynamic programming**:-if we can break problem into subproblems then it can be done with help of dynamic programming.
+run time in exponentials.
+
+
